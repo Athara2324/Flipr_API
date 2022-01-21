@@ -9,10 +9,4 @@ Query - 2nd Collection Name[3]
 the latest 30 devices, for all these devices get the latest 50 locations from the 2nd
 Collection using device ID.
 * From the above-collected Data make an object with all the devices as separate keys
-with an array of corresponding coordinates (array) which should be sequenced in a
-way such that the 0th location of the array has oldest coordinates and the nth
-location has the latest coordinates.
-* Add some custom headers to the response of API call namely:
-“Name” : “your_name”
-“Contact”: “your_email”
-* Return the above-created object as a response.
+with an array 
